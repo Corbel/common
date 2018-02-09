@@ -1,0 +1,18 @@
+## Setup
+sh -c "$(curl -fsSL https://raw.githubusercontent.com/robbyrussell/oh-my-zsh/master/tools/install.sh)"
+
+Install fzf
+[ -f ~/.fzf.zsh ] && source ~/.fzf.zsh
+
+Install auto jump
+[ -f /usr/local/etc/profile.d/autojump.sh ] && . /usr/local/etc/profile.d/autojump.sh
+
+
+## Git aliases
+alias gs='git status'
+alias ga='git add'
+alias gb='git branch'
+alias gc='git commit'
+alias gd='git diff'
+alias go='git checkout '
+alias gfix='git commit --amend --no-edit'
