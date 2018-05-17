@@ -16,3 +16,8 @@ alias gc='git commit'
 alias gd='git diff'
 alias go='git checkout '
 alias gfix='git commit --amend --no-edit'
+
+
+## if mac
+# defaults write -g InitialKeyRepeat -int 2 # normal minimum is 15 (225 ms)
+# defaults write -g KeyRepeat -int 1 # normal minimum is 2 (30 ms)
